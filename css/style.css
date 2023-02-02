@@ -1,5 +1,27 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+:root{ --title:#ec346e;
+        --box:#0f0e17;
+        --mail:#4ac6ec;
+        --text-card:#ffffff;
+}
+
+
+header{ max-width:1200px ;
+text-align: center;
+margin: auto;
+}
+
+h1{color: var(--title);
+font-size: 40px;
+margin: 2rem;}
+
+header p{
+    font-size: 20px;
 }
 
